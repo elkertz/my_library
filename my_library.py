@@ -5,6 +5,7 @@ import pandas as pd
 import math
 import spacy
   
+nlp = en_core_web_md.load() 
 def process_bio(bio):
   doc = nlp(bio)
   good_words = []
