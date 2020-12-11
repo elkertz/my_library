@@ -2,7 +2,6 @@ def hello():
   print('hello')
 
 import pandas as pd
-import uo_puddles.uo_puddles as up
 import math
 import spacy
 import en_core_web_md
