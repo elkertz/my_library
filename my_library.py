@@ -4,7 +4,6 @@ def hello():
 import pandas as pd
 import math
 import spacy
-import en_core_web_md
   
 def process_bio(bio):
   doc = nlp(bio)
